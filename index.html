@@ -3,26 +3,27 @@
     <head>
         <meta charset="UTF-8">
         <title>Arcádia Livraria</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
         <header class="header">
             <h1> Arcádia Livraria</h1>
             <div class="buttons">
-                <button>Contato</button>
-                <button>botao 2</button>
+                <button id="contatos">Contato     
+                </button>
+                <button id="show-iframe">Cadastro</button>
                 <button>botao 3</button>
                 <button>Cupom</button>
             </div>
         </header>
         
         <main class="main">
+            <iframe id="sign-in-iframe" src="sign-in.html" frameborder="0"></iframe>
+
             <div class="sidebar">
-                <div class="card">
-                    <img src="assets/floresta.jpg">
-                    <h2>A Floresta Sombria</h2>
-                    <h3>R$ 54,99</h3>  
+                <div class="card" id="promocao">
+                    Itens Promocionais. <br>
+                    Válido ate 21/09/24  
                 </div>
                 <div class="card">
                     <img src="assets/floresta.jpg">
@@ -82,42 +83,6 @@
                     <h2>O Senhor dos Anéis: As Duas Torres</h2>
                     <h3>R$ 37,99</h3> 
                 </div>
-                <div class="card">
-                    <img src="assets/sdaasduastorres.jpg">
-                    <h2>O Senhor dos Anéis: As Duas Torres</h2>
-                    <h3>R$ 37,99</h3> 
-                </div>
-                <div class="card">
-                    <img src="assets/sdaasduastorres.jpg">
-                    <h2>O Senhor dos Anéis: As Duas Torres</h2>
-                    <h3>R$ 37,99</h3> 
-                </div>
-                <div class="card">
-                    <img src="assets/sdaasduastorres.jpg">
-                    <h2>O Senhor dos Anéis: As Duas Torres</h2>
-                    <h3>R$ 37,99</h3> 
-                </div>
-                <div class="card">
-                    <img src="assets/sdaasduastorres.jpg">
-                    <h2>O Senhor dos Anéis: As Duas Torres</h2>
-                    <h3>R$ 37,99</h3> 
-                </div>
-                <div class="card">
-                    <img src="assets/sdaasduastorres.jpg">
-                    <h2>O Senhor dos Anéis: As Duas Torres</h2>
-                    <h3>R$ 37,99</h3> 
-                </div>
-                <div class="card">
-                    <img src="assets/sdaasduastorres.jpg">
-                    <h2>O Senhor dos Anéis: As Duas Torres</h2>
-                    <h3>R$ 37,99</h3> 
-                </div>
-                <div class="card">
-                    <img src="assets/sdaasduastorres.jpg">
-                    <h2>O Senhor dos Anéis: As Duas Torres</h2>
-                    <h3>R$ 37,99</h3> 
-                </div>
-                
             </div>
         </main>
         
@@ -127,18 +92,27 @@
             </div>
             <div class="social-media-links">
                 <button>
+                    <a href="https://www.facebook.com" target="_blank">
                     <img src="assets/facebook.png">
+                    </a>
+                </button>
+                    <button>
+                    <a href="https://www.instagram.com" target="_blank">
+                    <img src="assets/insta.png">
+                    </a>
                 </button>
                 <button>
-                    <img src="assets/instagram.png">
-                </button>
-                <button>
+                    <a href="https://wa.me/5542984047972/" target="_blank">
                     <img src="assets/WhatsApp-icone.png">
+                    </a>
                 </button>
                 <button>
-                    <img src="assets/telefone.png">
+                    <a href="https://play.google.com/" target="_blank">
+                    <img src="assets/play.png">
+                    </a>
                 </button>
             </div>
         </footer>
+        <script src="index.js"></script> 
     </body>
 </html>
