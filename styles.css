@@ -6,6 +6,9 @@
     box-sizing: border-box;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
     background-color: black;
     height: 100vh;
@@ -198,6 +201,8 @@ footer .social-media .social-button:hover{
     transform: scale(1.2);
 }
 
+/* ------------MOBILE---------------- */
+
 @media(max-width: 1190px){
     header .interface{
         justify-content: center;
@@ -213,6 +218,9 @@ footer .social-media .social-button:hover{
     }
     .contact-button{
         display: none;
+    }
+    .social-media .flex{
+        flex-direction: row;;
     }
 }
 
