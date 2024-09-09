@@ -216,11 +216,19 @@ footer .social-media .social-button:hover{
     .nav-buttons{
         display: none;
     }
-    .contact-button{
-        display: none;
-    }
     .social-media .flex{
         flex-direction: row;;
+    }
+    #header-btn{
+        display: none;
+    }
+    .contact-button{
+        align-items: center;
+        justify-content: center;
+    }
+    .interface{
+        align-items:center;
+        justify-content: center;
     }
 }
 
