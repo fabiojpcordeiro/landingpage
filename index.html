@@ -2,117 +2,148 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Arcádia Livraria</title>
+        <title>Star Energia</title>
         <link rel="stylesheet" href="styles.css">
     </head>
-    <body>
-        <header class="header">
-            <h1> Arcádia Livraria</h1>
-            <div class="buttons">
-                <button id="contatos">Contato     
+    <header>
+        <div class="interface">
+            <div class="logo">
+                <a href="#">
+                    <img src="assets/Sun.png" alt="Logotipo da empresa">
+                </a>
+                <h1>Star Energia</h1>
+            </div>  
+            <nav class="nav-buttons">
+                <ul>
+                    <li><a href="#main">Home</a></li>
+                    <li><a href="#benefits">Benefícios</a></li>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+            <div class="contact-button">
+                <button>
+                <a href="#">Solicite um orçamento</a>
                 </button>
-                <button id="show-iframe">Cadastro</button>
-                <button>botao 3</button>
-                <button>Cupom</button>
-            </div>
-        </header>
-        
-        <main class="main">
-            <iframe id="sign-in-iframe" src="sign-in.html" frameborder="0"></iframe>
+            </div>       
+        </div>
 
-            <div class="sidebar">
-                <div class="card" id="promocao">
-                    Itens Promocionais. <br>
-                    Válido ate 21/09/24  
+    </header>
+    <main>
+        <section class="main">
+            <div class="interface">
+                <div class="flex">
+                    <div class="main-text">
+                        <h1>Economize com <span>Energia Solar</span> e Ajude o <span> Meio Ambiente</span>.</h1>
+                        <p>Reduza sua conta de luz com a melhor solução em energia solar para sua casa ou empresa.</p>
+                        <div class="contact-button">
+                            <button>
+                                <a href="#">Solicite um orçamento</a>
+                            </button>  
+                        </div>
+                    </div>
+                    <div class="main-img">
+                        <img src="assets/imagemmain.jpg" alt="A imagem mostra dois engenheiros instalando um painel solar">
+                    </div>
                 </div>
-                <div class="card">
-                    <img src="assets/floresta.jpg">
-                    <h2>A Floresta Sombria</h2>
-                    <h3>R$ 54,99</h3>  
-                </div>
-                <div class="card">
-                    <img src="assets/peqprincipe.jpg">
-                    <h2>O Pequeno Príncipe</h2>
-                    <h3>R$ 54,99</h3>  
-                </div>
-                <div class="card">
-                    <img src="assets/HPpedrafilosofal.jpg">
-                    <h2>Harry Potter: E a Pedra Filosofal</h2>
-                    <h3>R$ 49,99</h3>  
+
+            </div>
+        </section>
+        <section class="benefits">
+            <div class="interface">
+                <h2 class="title">BENEFÍCIOS DA ENERGIA SOLAR:</h2>
+                <div class="flex">
+                    <div class="benefits-card">
+                        <img class="icons" src="assets/moeda.png" alt="Um icone representando economia de dinheiro.">
+                        <h3>Economia na conta de luz</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique, totam eveniet! Alias necessitatibus repudiandae error dolorem! Sunt harum autem dolorum, blanditiis iure fuga veniam suscipit, quas animi laborum amet expedita.</p>
+                    </div>
+                    <div class="benefits-card">
+                        <img class="icons" src="assets/renovavel.png" alt="Um icone representando energia vinda de fontes renováveis.">
+                        <h3>Economia na conta de luz</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique, totam eveniet! Alias necessitatibus repudiandae error dolorem! Sunt harum autem dolorum, blanditiis iure fuga veniam suscipit, quas animi laborum amet expedita.</p>
+                    </div>
+                    <div class="benefits-card">
+                        <img class="icons" src="assets/imobiliaria.png" alt="Um icone representando valorização de imóveis.">
+                        <h3>Economia na conta de luz</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique, totam eveniet! Alias necessitatibus repudiandae error dolorem! Sunt harum autem dolorum, blanditiis iure fuga veniam suscipit, quas animi laborum amet expedita.</p>
+                    </div>
                 </div>
             </div>
-        
-            <div class="catalog-container">
-                <div class="card">
-                    <img src="assets/sdaasduastorres.jpg">
-                    <h2>O Senhor dos Anéis: As Duas Torres</h2>
-                    <h3>R$ 37,99</h3> 
-                </div>
-                <div class="card">
-                    <img src="assets/sdaasduastorres.jpg">
-                    <h2>O Senhor dos Anéis: As Duas Torres</h2>
-                    <h3>R$ 37,99</h3> 
-                </div>
-                <div class="card">
-                    <img src="assets/sdaasduastorres.jpg">
-                    <h2>O Senhor dos Anéis: As Duas Torres</h2>
-                    <h3>R$ 37,99</h3> 
-                </div>
-                <div class="card">
-                    <img src="assets/sdaasduastorres.jpg">
-                    <h2>O Senhor dos Anéis: As Duas Torres</h2>
-                    <h3>R$ 37,99</h3> 
-                </div>
-                <div class="card">
-                    <img src="assets/sdaasduastorres.jpg">
-                    <h2>O Senhor dos Anéis: As Duas Torres</h2>
-                    <h3>R$ 37,99</h3> 
-                </div>
-                <div class="card">
-                    <img src="assets/sdaasduastorres.jpg">
-                    <h2>O Senhor dos Anéis: As Duas Torres</h2>
-                    <h3>R$ 37,99</h3> 
-                </div>
-                <div class="card">
-                    <img src="assets/sdaasduastorres.jpg">
-                    <h2>O Senhor dos Anéis: As Duas Torres</h2>
-                    <h3>R$ 37,99</h3> 
-                </div>
-                <div class="card">
-                    <img src="assets/sdaasduastorres.jpg">
-                    <h2>O Senhor dos Anéis: As Duas Torres</h2>
-                    <h3>R$ 37,99</h3> 
+        </section>
+        <section class="about">
+            <div class="interface">
+                <div class="flex">
+                    <div class="about-image">
+                        <img src="assets/fachada.jpg">
+                    </div>
+                    <div class="about-text">
+                        <h2 class="title">
+                            Quem somos nós?
+                        </h2>
+                        <p>Fundada com a missão de transformar o mercado de energia e promover a sustentabilidade, a Star Energia nasceu do desejo de tornar a energia solar uma solução acessível e eficiente para todos. Desde nossos primeiros projetos, temos investido em tecnologia de ponta e em uma equipe apaixonada, dedicando-nos a fornecer soluções solares de alta qualidade. Ao longo dos anos, crescemos e nos tornamos um referência no setor, sempre com o compromisso de inovar e oferecer um serviço excepcional, ajudando nossos clientes a reduzir custos e a contribuir para um futuro mais sustentável.</p>
+                        <div class="contact-button">
+                            <button>
+                                <a href="#">Solicite um orçamento</a>
+                            </button>
+                        </div>
+
+                    </div>
                 </div>
             </div>
-        </main>
-        
-        <footer class="footer">
-            <div class="trademark">
-                <p>&copy; Arcádia Livraria. Todos os direitos reservados.</p>
+        </section>
+        <section class="customer-review">
+            <div class="interface">
+                <div class="flex">
+                    <div class="customer">
+                        <img class="photo" src="assets/empresario.jpg" alt="Foto de um cliente">
+                        <h4>Marcos Silva, Empresário</h4>
+                        <p>“Escolher a Star Energia foi uma das melhores decisões que já tomei para o meu negócio. A equipe foi extremamente profissional desde o primeiro contato, tirando todas as minhas dúvidas e oferecendo um serviço de instalação impecável. Agora, minha empresa está economizando muito na conta de energia e ainda contribuímos para um futuro mais sustentável. Recomendo de olhos fechados!”</p>    
+                    </div>
+                    <div class="customer">
+                        <img class="photo" src="assets/arquiteta2.jpg" alt="Foto de um cliente">
+                        <h4>Carla Mendes, Arquiteta</h4>
+                        <p>“Sempre quis transformar minha casa em um espaço mais sustentável, e a Star Energia tornou isso possível. Desde a consultoria inicial até a instalação dos painéis solares, fui tratada com atenção e transparência. A redução na minha conta de energia foi impressionante e, além disso, sinto que estou fazendo minha parte pelo meio ambiente. A Star Energia superou todas as minhas expectativas!”</p>    
+                    </div>
+                    <div class="customer">
+                        <img class="photo" src="assets/eng.avif" alt="Foto de um cliente">
+                        <h4>João Oliveira, Engenheiro Civil</h4>
+                        <p>“A Star Energia é uma empresa que se destaca pela qualidade do atendimento e pela tecnologia de ponta dos seus produtos. Desde a instalação dos painéis solares, nossa família viu uma redução significativa nos custos de energia. Além disso, o suporte pós-venda é excelente, sempre pronto para ajudar. Não poderíamos estar mais satisfeitos com nossa escolha!”</p>
+                    </div>
+                </div>
             </div>
-            <div class="social-media-links">
-                <button>
-                    <a href="https://www.facebook.com" target="_blank">
-                    <img src="assets/facebook.png">
+        </section>
+    </main>
+    <footer>
+        <div class="interface">
+            <div class="flex">
+                <div class="logo">
+                    <a href="#"></a>
+                    <img src="assets/Sun.png" alt="Logotipo da empresa">
                     </a>
-                </button>
-                    <button>
-                    <a href="https://www.instagram.com" target="_blank">
-                    <img src="assets/insta.png">
-                    </a>
-                </button>
-                <button>
-                    <a href="https://wa.me/5542984047972/" target="_blank">
-                    <img src="assets/WhatsApp-icone.png">
-                    </a>
-                </button>
-                <button>
-                    <a href="https://play.google.com/" target="_blank">
-                    <img src="assets/play.png">
-                    </a>
-                </button>
-            </div>
-        </footer>
-        <script src="index.js"></script> 
-    </body>
+                    <h1>Star Energia</h1>
+                </div>
+                <div class="social-media">
+                    <div class="flex">
+                        <button class="social-button">
+                            <a href="https://www.facebook.com/" target="_blank">
+                                <img src="assets/facebook.png">
+                            </a>
+                        </button>
+                        <button class="social-button">
+                            <a href="https://www.instagram.com/" target="_blank">
+                                <img src="assets/instagram.png">
+                            </a>
+                        </button>
+                        <button class="social-button">
+                            <a href="https://wa.me/5542984047972/" target="_blank">
+                                <img src="assets/whatsapp.png">
+                            </a>
+                        </button>
+ 
+                    </div>
+                </div>
+            </div>  
+        </div>
+    </footer>
 </html>
