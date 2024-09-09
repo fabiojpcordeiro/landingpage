@@ -87,6 +87,7 @@ section.main .flex{
     align-items: center;
     justify-content: center;
     gap: 60px;
+    text-align: center;
 }
 .main .main-text h1{
     color: white;
@@ -117,6 +118,7 @@ section.benefits .flex{
     border-radius: 20px;
     margin-top: 50px;
     transition: .2s;
+    text-align: center;
 }
 .benefits .benefits-card .icons{
     width: 200px;
@@ -144,6 +146,7 @@ section.about .about-image img{
 }
 section.about .about-text{
     color: white;
+    text-align: center;
     font-size: 20px;
     line-height: 30px;
 }
@@ -208,7 +211,9 @@ footer .social-media .social-button:hover{
         justify-content: center;
     }
     .flex{
-        flex-direction: column;
+        flex-direction: column;;
+        align-items: center;
+        margin: 0 auto;
     }
     .main .flex{
         flex-direction: column-reverse;
@@ -222,13 +227,16 @@ footer .social-media .social-button:hover{
     #header-btn{
         display: none;
     }
-    .contact-button{
-        align-items: center;
-        justify-content: center;
-    }
-    .interface{
-        align-items:center;
-        justify-content: center;
+    .contact-button button{
+        padding: 10px 30px;
+        width: 85%;
+        height: 80px;
+        margin: 0 100px;
+        border-radius: 30px;
+        font-size: 16px;
+        font-weight: 500;
+        background-color: #00FF08;
+        cursor: pointer;
     }
 }
 
