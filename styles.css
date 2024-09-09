@@ -100,6 +100,7 @@ section.main .flex{
 .main .main-text p{
     color: white;
     margin: 40px 0px;
+    font-size: 30px;
 }
 .main .main-img img{
     border-radius: 15px;
